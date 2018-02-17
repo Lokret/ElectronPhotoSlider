@@ -1,0 +1,33 @@
+#name {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#price {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#logo img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#logo img:hover {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
