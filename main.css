@@ -1,33 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+#left, #total {
+    display: inline-block;
+}
+
 #name {
     font-family: Verdana, Geneva, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    color: #042d97;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 #price {
     font-family: Tahoma, Geneva, sans-serif;
+    font-size: 50px;
+    color: #fac70e;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#logo img {
+#image {
+    position: relative;
+    height: 100%;
+}
+
+#price-wrapper {
     position: absolute;
-    width: 120px;
-    height: 120px;
-    
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+    margin-left: 20%;
 }
 
-#logo img:hover {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    transform: rotate(20deg);
+#image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#image-wrapper img {
+    max-height: 100%;
 }

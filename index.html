@@ -6,14 +6,17 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <div id='image'>
-      <div id="logo"></div>
-      <div id="price"></div>
-      <div id="name"></div>
-      <img id="imageTag" src="test" alt="">
+    <div>
+      <label>Как стоит телевизор?</label>
+      <select id='select'>
+          <option value="0">Стоит ровно</option>
+          <option value="90">Повернут влево на 90 градусов</option>
+          <option value="270">Повернут вправо на 90 градусов</option>
+      </select>
+      <input id='generateBtn' type="button" value="Создать">
     </div>
+    <div>Дождитесь загрузки всех файлов, законченно: <div id="left"></div> из <div id="total"></div></div>
     <script>
-      // You can also require other files to run in this process
       require('./renderer.js')
     </script>
   </body>
